@@ -33,7 +33,7 @@
 }
 
 .thumbnail .item.active {
-    filter: brightness(1.5);
+    filter: brightness(1);
 }
 
 .thumbnail .item .content {
