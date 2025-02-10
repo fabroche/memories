@@ -92,7 +92,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #eee5;
+    background-color: #2a2a2a;
     border: none;
     font-family: monospace;
     width: 40px;
@@ -100,10 +100,12 @@
     border-radius: 5px;
     font-size: x-large;
     color: #eee;
+    opacity: 0.7;
     transition: .5s;
 }
 
 .arrows button:hover {
-    background-color: #eee;
-    color: black;
+    background-color: #2a2a2a;
+    color: white;
+    opacity: 1;
 }
