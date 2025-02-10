@@ -1,4 +1,4 @@
-const BASE_IMAGES_DIR = "/images"
+const BASE_IMAGES_DIR = "images"
 
 export const images = [
     {
