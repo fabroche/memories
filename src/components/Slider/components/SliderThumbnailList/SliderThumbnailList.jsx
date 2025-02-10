@@ -1,4 +1,4 @@
-import React from 'react';
+import './SliderThumbnailList.css'
 
 function SliderThumbnailList({children}) {
     return (
