@@ -28,8 +28,20 @@ function Slider() {
             </SliderImageList>
 
             <div className="arrows">
-                <SliderControlButton isNext={false} icon={"<"}/>
-                <SliderControlButton isNext={true} icon={">"}/>
+                <SliderControlButton
+                    isNext={false}
+                    icon={"<"}
+                    imagesList={images}
+                    imageActiveName={imageActiveName}
+                    setImageActiveName={setImageActiveName}
+                />
+                <SliderControlButton
+                    isNext={true}
+                    icon={">"}
+                    imagesList={images}
+                    imageActiveName={imageActiveName}
+                    setImageActiveName={setImageActiveName}
+                />
             </div>
 
             <SliderThumbnailList>
