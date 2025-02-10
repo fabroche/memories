@@ -21,6 +21,7 @@ function Slider() {
                             imageActiveName={imageActiveName}
                             imageUrl={image.url}
                             imageDescription={image.description}
+                            imageEmoji={image.emoji}
                         />
                     ))
                 }

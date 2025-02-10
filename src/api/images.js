@@ -2,28 +2,33 @@ const BASE_IMAGES_DIR = "images"
 
 export const images = [
     {
-        name: "Slider 01",
-        url: `${BASE_IMAGES_DIR}/img1.png`,
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.'
+        name: "Regalito",
+        url: `${BASE_IMAGES_DIR}/aby-regalito.jpg`,
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.',
+        emoji: "🎁"
     },
     {
-        name: "Slider 02",
-        url: `${BASE_IMAGES_DIR}/img2.jpg`,
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.'
+        name: "Viajesito",
+        url: `${BASE_IMAGES_DIR}/aby-yo-pe.jpg`,
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.',
+        emoji: "🚎"
     },
     {
-        name: "Slider 03",
-        url: `${BASE_IMAGES_DIR}/img3.jpg`,
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.'
+        name: "Besito",
+        url: `${BASE_IMAGES_DIR}/aby-yo-pe-besito.jpg`,
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.',
+        emoji: "😈"
     },
     {
-        name: "Slider 04",
-        url: `${BASE_IMAGES_DIR}/img4.jpg`,
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.'
+        name: "Fotico",
+        url: `${BASE_IMAGES_DIR}/aby-yo-pe-2.jpg`,
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.',
+        emoji: "📸"
     },
     {
-        name: "Slider 05",
-        url: `${BASE_IMAGES_DIR}/img5.jpg`,
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.'
+        name: "Manitos",
+        url: `${BASE_IMAGES_DIR}/aby-yo-pe-manitos.jpg`,
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.',
+        emoji: "😘"
     },
 ]

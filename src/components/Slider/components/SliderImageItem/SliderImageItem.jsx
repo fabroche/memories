@@ -1,6 +1,6 @@
 import React from 'react';
 
-function SliderImageItem({imageName, imageUrl, imageActiveName,imageDescription}) {
+function SliderImageItem({imageName, imageUrl, imageActiveName,imageDescription,imageEmoji}) {
     return (
         <div
             key={imageName}
@@ -8,7 +8,7 @@ function SliderImageItem({imageName, imageUrl, imageActiveName,imageDescription}
         >
             <img src={imageUrl}/>
             <div className="content">
-                <p>design</p>
+                <p>{`Memories${imageEmoji}`}</p>
                 <h2>{imageName}</h2>
                 <p>
                     {imageDescription}
